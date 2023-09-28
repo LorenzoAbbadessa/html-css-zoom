@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+header{
+    background-color: black;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content:flex-end;
+    align-content: flex-start;
+}
+
+header>div{
+    color: white;
+    background-color: grey;
+    border-radius: 5px;
+    margin: 0px;
+    padding: 3px;
+    margin-bottom: 25px;
+    margin-right: 5px;
+}
+div>h5{
+    display: inline;
+    margin-right: 5px;
+}
+
+.fa-arrows-up-down-left-right {
+    rotate: 45deg;
+}
+main{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+div>img{
+    height: 200px;
+}
+.microfono{
+    background: rgba(0,0,0,0.3);
+    position: relative;
+    bottom: 25px;
+    color: white;
+    border-radius: 5px;
+    max-width: 93px;
+    
+}
+.container{
+    margin: 2px 5px;
+}
+footer{
+    background-color: grey;
+    width: 100vw;
+    height: 50px;
+}    
+
